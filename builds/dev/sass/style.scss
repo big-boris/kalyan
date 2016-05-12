@@ -1,0 +1,50 @@
+.header, .footer {
+    padding-top: 20px;
+    padding-bottom: 28px;
+}
+.header__text {
+    font-size: 36px;
+    line-height: 1;
+    padding: 16px 0;
+}
+.header__phone {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.5;
+    padding-top: 8px;
+}
+.header__opening__hours {
+    font-size: 22px;
+}
+.slider {
+    margin-bottom: 16px;
+}
+.product {
+    font-size: 20px;
+    margin-top: 26px;
+}
+.product__name {
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.product__price {
+    margin-top: 8px;
+}
+.map {
+    margin: 36px 0px;
+}
+.footer__text {
+    font-size: 36px;
+    padding: 16px 0;
+}
+.footer__phone {
+    font-weight: bold;
+    font-size: 36px;
+    padding-left: 16px;
+}
+.footer__address {
+    font-size: 22px;
+    padding-left: 16px;
+}
