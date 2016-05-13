@@ -1,4 +1,6 @@
 .header, .footer {
+    background-color: #000;
+    color: #FFFAF0;
     padding-top: 20px;
     padding-bottom: 28px;
 }
@@ -6,18 +8,20 @@
     font-size: 36px;
     line-height: 1;
     padding: 16px 0;
+    margin-top: 40px;
 }
 .header__phone {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.5;
     padding-top: 8px;
+    margin-top: 40px;
 }
 .header__opening__hours {
     font-size: 22px;
 }
 .slider {
-    margin-bottom: 16px;
+    margin: 16px 0px;
 }
 .product {
     font-size: 20px;
@@ -32,17 +36,31 @@
 .product__price {
     margin-top: 8px;
 }
-.map {
+.vyberimix__title {
+    font-family: 'roboto-medium';
+    font-size: 32px;
+    margin: 24px 0px;
+    text-transform: uppercase;
+}
+.vyberimix__text {
+    font-family: 'roboto-medium';
+    font-size: 22px;
+    line-height: 1.8;
+    text-transform: uppercase;
+}
+.map, .vyberimix {
     margin: 36px 0px;
 }
 .footer__text {
     font-size: 36px;
     padding: 16px 0;
+    margin-top: 40px;
 }
 .footer__phone {
     font-weight: bold;
     font-size: 36px;
     padding-left: 16px;
+    margin-top: 40px;
 }
 .footer__address {
     font-size: 22px;
