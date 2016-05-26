@@ -1,8 +1,63 @@
+html {
+  font-family: 'matias', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: "matias", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+/*[[ Section for container as well as text alignment ]]*/
 .container {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+@media (min-width: 35.5em) {
+  .container {
+    width: 550px;
+  }
+}
+@media (min-width: 48em) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 64em) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 80em) {
+  .container {
+    width: 1190px;
+  }
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after {
+  content: " ";
+  display: table;
+}
+
+.container:after,
+.container-fluid:after {
+  clear: both;
 }
 
 .text-left {
@@ -32,6 +87,7 @@
 .text-muted {
   color: #777777;
 }
+/*[[ Section for container as well as text alignment ]]*/
 
 
 .header, .footer {

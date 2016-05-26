@@ -20,7 +20,7 @@ head
 
 body
     .container
-        .row.text-center.header
+        .pure-g.text-center.header
             .pure-u-md-3-12
                 .logo
                     img(src='img/logo.png' alt='Кальянная Smoke Room Нахабино, недорого покурить кальян' height='160px')
@@ -31,7 +31,7 @@ body
                 .header__opening__hours Часы работы: с 12:00 до 23:00
 
 
-        .row.slider.hidden-xs
+        .pure-g.slider.hidden-xs
             .pure-u-md-1
                 .fotorama(data-width="100%" data-height='520px' data-nav="false" transitionduration='100' data-autoplay="3000" data-stopautoplayontouch="false" data-fit="cover" data-max-width="100%")
                     img(src='img/kalyan_slide01.jpg' alt='Кальянная Smoke Room Нахабино слайд 1' width='100%')
@@ -39,11 +39,11 @@ body
                     img(src='img/kalyan_slide03.jpg' alt='Кальянная Smoke Room Нахабино' width='100%')
                     img(src='img/kalyan_slide04.jpg' alt='Кальянная Smoke Room Нахабино' width='100%')
 
-            //- kalyan first row
-        .row
+            //- kalyan first.pure-g
+        .pure-g
             .pure-u-sm-6-12.pure-u-md-4-12
                 .product
-                    img(src='img/tabak_darkside.jpg' alt='Кальян Darkside' width='100%')
+                    img(src='img/tabak_darkside.jpg' alt='Кальян Darkside' width='60%')
                     .product__name Кальян Darkside
                     .product__price
                         ul.product__price__option
@@ -51,7 +51,7 @@ body
                             li На фрукте &#8212; 1 500 р
             .pure-u-sm-6-12.pure-u-md-4-12
                 .product
-                    img(src='img/tabak_fumari.jpg' alt='Кальян Fumari' width='100%')
+                    img(src='img/tabak_fumari.jpg' alt='Кальян Fumari' width='60%')
                     .product__name Кальян Fumari
                     .product__price
                         ul.product__price__option
@@ -60,18 +60,18 @@ body
             //- .clearfix.visible-sm-block
             .pure-u-sm-6-12.pure-u-md-4-12
                 .product
-                    img(src='img/tabak_nakhla.jpg' alt='Кальян Nakhla' width='100%')
+                    img(src='img/tabak_nakhla.jpg' alt='Кальян Nakhla' width='60%')
                     .product__name Кальян Nakhla
                     .product__price
                         ul.product__price__option
                             li На обычной чаше &#8212; 650 р
                             li На фрукте &#8212; 750 р
 
-            //- kalyan second row
-        .row
+            //- kalyan second.pure-g
+        .pure-g
             .pure-u-sm-1-2.pure-u-md-1-3
                 .product
-                    img(src='img/tabak_serbetli.jpg' alt='Кальян Serbetli' width='100%')
+                    img(src='img/tabak_serbetli.jpg' alt='Кальян Serbetli' width='60%')
                     .product__name Кальян Serbetli
                     .product__price
                         ul.product__price__option
@@ -79,7 +79,7 @@ body
                             li На фрукте &#8212; 750 р
             .pure-u-sm-1-2.pure-u-md-1-3
                 .product
-                    img(src='img/tabak_adalya.jpg' alt='Кальян Adalya' width='100%')
+                    img(src='img/tabak_adalya.jpg' alt='Кальян Adalya' width='60%')
                     .product__name Кальян Adalya
                     .product__price
                         ul.product__price__option
@@ -87,26 +87,26 @@ body
                             li На фрукте &#8212; 750 р
             .pure-u-sm-1-2.pure-u-md-1-3
                 .product
-                    img(src='img/tabak_alfakher.jpg' alt='Кальян Al Fakher' width='100%')
+                    img(src='img/tabak_alfakher.jpg' alt='Кальян Al Fakher' width='60%')
                     .product__name Кальян Al Fakher
                     .product__price
                         ul.product__price__option
                             li На обычной чаше &#8212; 650 р
                             li На фрукте &#8212; 750 р
 
-        .row.vyberimix
-            .pure-u-sm-1.pure-u-md-6-12
+        .pure-g.vyberimix
+            .pure-u-sm-12.pure-u-md-1-2
                 img(src='img/vyberi_mix.jpg', alt='Выбери свой микс' width='100%')
-            .pure-u-sm-12.pure-u-md-6.text-center
+            .pure-u-sm-12.pure-u-md-1-2.text-center
                 .vyberimix__title Выбери свой вкус или микс
                 .vyberimix__text киви &#8226; мята &#8226; бабл гам &#8226; ананас &#8226; малина &#8226; вишня &#8226; манго &#8226; гуава &#8226; бабл гам фрукт &#8226; манго айс &#8226; кактус &#8226; арбуз &#8226; лимон пай &#8226; дыня &#8226; апельсин - ананас &#8226;персик &#8226; апельсин &#8226; черника &#8226; виноград
 
-        .row.map
+        .pure-g.map
             .container
                 script(type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=r8vjUC7gKaTP9hxyf_Ok9mpF9u0kLvl9&width=100%&height=470&lang=ru_RU&sourceType=constructor&scroll=true")
                 //- img(src='img/map.jpg', alt='карта контакты' width='100%')
 
-        .row.footer
+        .pure-g.footer
             .pure-u-md-3-12.text-center
                 .logo
                     img(src='img/logo.png' alt='Кальянная Smoke Room Нахабино, недорого покурить кальян' height='160px')
