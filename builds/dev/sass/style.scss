@@ -1,6 +1,42 @@
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-nowrap {
+  white-space: nowrap;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+.text-muted {
+  color: #777777;
+}
+
+
 .header, .footer {
-    background-color: #000;
-    color: #FFFAF0;
+    // background-color: #000;
+    // color: #FFFAF0;
     padding-top: 20px;
     padding-bottom: 28px;
 }
@@ -8,14 +44,14 @@
     font-size: 36px;
     line-height: 1;
     padding: 16px 0;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .header__phone {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.5;
     padding-top: 8px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .header__opening__hours {
     font-size: 22px;
@@ -37,13 +73,11 @@
     margin-top: 8px;
 }
 .vyberimix__title {
-    font-family: 'roboto-medium';
     font-size: 32px;
     margin: 24px 0px;
     text-transform: uppercase;
 }
 .vyberimix__text {
-    font-family: 'roboto-medium';
     font-size: 22px;
     line-height: 1.8;
     text-transform: uppercase;
@@ -65,4 +99,9 @@
 .footer__address {
     font-size: 22px;
     padding-left: 16px;
+}
+@media (max-width: 1024px) {
+  .footer__phone, .footer__address {
+    text-align: center !important;
+  }
 }
