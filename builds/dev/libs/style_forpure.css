@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'matias';
+    src: url('../fonts/matias-webfont.ttf');
+}
+
+html {
+  font-family: 'matias', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: "matias", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+/*[[ Section for container as well as text alignment ]]*/
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 35.5em) {
+  .container {
+    width: 550px;
+  }
+}
+@media (min-width: 48em) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 64em) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 80em) {
+  .container {
+    width: 1190px;
+  }
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after {
+  content: " ";
+  display: table;
+}
+
+.container:after,
+.container-fluid:after {
+  clear: both;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-nowrap {
+  white-space: nowrap;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+.text-muted {
+  color: #777777;
+}
+/*[[ Section for container as well as text alignment ]]*/
+
+
+.header, .footer {
+    // background-color: #000;
+    // color: #FFFAF0;
+    padding-top: 20px;
+    padding-bottom: 28px;
+}
+.header__text {
+    font-size: 36px;
+    line-height: 1;
+    padding: 16px 0;
+    margin-top: 30px;
+}
+.header__phone {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.5;
+    padding-top: 8px;
+    margin-top: 30px;
+}
+.header__opening__hours {
+    font-size: 22px;
+}
+.slider {
+    margin: 16px 0px;
+}
+.product {
+    font-size: 20px;
+    margin-top: 26px;
+}
+.product__name {
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.product__price {
+    margin-top: 8px;
+}
+.vyberimix__title {
+    font-size: 32px;
+    margin: 24px 0px;
+    text-transform: uppercase;
+}
+.vyberimix__text {
+    font-size: 22px;
+    line-height: 1.8;
+    text-transform: uppercase;
+}
+.map, .vyberimix {
+    margin: 36px 0px;
+}
+.footer__text {
+    font-size: 36px;
+    padding: 16px 0;
+    margin-top: 40px;
+}
+.footer__phone {
+    font-weight: bold;
+    font-size: 36px;
+    padding-left: 16px;
+    margin-top: 40px;
+}
+.footer__address {
+    font-size: 22px;
+    padding-left: 16px;
+}
+@media (max-width: 1024px) {
+  .footer__phone, .footer__address {
+    text-align: center !important;
+  }
+}
